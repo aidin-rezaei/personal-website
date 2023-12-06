@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
 
 @font-face {
 	font-family: 'BAUHS93';
@@ -16,4 +14,11 @@
 body, html {
 	/* height: 100%; */
 	/* cursor: url('/pointer.cur') -10 10, default !important; */
+}
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	transition: background .1s ease, color .1s ease, filter .1s ease;
 }

@@ -1,5 +1,7 @@
+
 import { useEffect, useRef } from "react"
 import './style.css'
+
 const Button = ({ className, style, link, click, children, disabled, btnclass, borderclass }:any) => {
     const effect:any = useRef(null);
     const btn:any = useRef(null);
@@ -12,13 +14,13 @@ const Button = ({ className, style, link, click, children, disabled, btnclass, b
     useEffect(() => {
         let body = document.body
         body.addEventListener('mousemove', () => {
-            let bodyRect:any = document.body.getBoundingClientRect(),
-                base:any = btn.current.getBoundingClientRect(),
-                top:any = bodyRect.top - base.top,
-                left:any = bodyRect.left - base.left,
+            let bodyRect = document.body.getBoundingClientRect(),
+                base = btn.current.getBoundingClientRect(),
+                top = bodyRect.top - base.top,
+                left = bodyRect.left - base.left,
                 e:any = window.event,
-                top2:any = (e.clientY + window.scrollY) + top,
-                left2:any = (e.clientX + window.scrollX) + left
+                top2 = (e.clientY + window.scrollY) + top,
+                left2 = (e.clientX + window.scrollX) + left
             effect.current.style.setProperty('top', `${top2}px`)
             effect.current.style.setProperty('left', `${left2}px`)
         })

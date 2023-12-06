@@ -1,0 +1,37 @@
+.sidemenu{
+    transition: width .5s ease;
+}
+.sidemenu .EffectLightMode{
+    transition: opacity .5s ease;
+    opacity: 0;
+}
+.sidemenu:hover .EffectLightMode{
+    opacity: 1;
+}
+.sidemenu .itemmenu{
+    background: #D6DBDC;
+}
+[data-mode="dark"] .sidemenu .itemmenu{
+    background: #000;
+}
+.sidemenu:hover .itemmenu{
+    background: rgb(200, 205, 206 , 1);
+}
+.sidemenu:hover .itemmenu:hover{
+    background: rgb(200, 205, 206 , 0.5);
+}
+[data-mode="dark"] .sidemenu:hover .itemmenu{
+    background: rgb(31, 31, 31);
+}
+[data-mode="dark"] .sidemenu:hover .itemmenu:hover{
+    background: rgb(31, 31, 31, 0.8);
+}
+.sidemenu .pitemm{
+    width: 60px;
+}
+.sidemenu .pitemm{
+    width: 60px;
+}
+.sidemenu:hover .pitemm{
+    width: 220px;
+}

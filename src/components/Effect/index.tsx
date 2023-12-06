@@ -1,19 +1,19 @@
-'use client'
+
 import { useEffect, useRef } from "react";
 import { useSelector } from "react-redux";
 import './style.css'
 
 const Effect = ({className}:any) => {
-    const select:any = useRef(null);
+    const select :any= useRef(null);
     const lightModeBTN:any = useSelector((state:any) => state.counter.value)
     useEffect(function onFirstMount() {
-        let bodyRect:any = document.body.getBoundingClientRect(),
-            base:any = select.current.getBoundingClientRect(),
-            top:any =  bodyRect.top - base.top,
-            left:any =  bodyRect.left - base.left,
-            circle:any = document.createElement('div'),
-            top2:any = ( Number(lightModeBTN[1]) + window.scrollY ) + top,
-            left2:any = (Number(lightModeBTN[2]) + window.scrollX ) + left
+        let bodyRect = document.body.getBoundingClientRect(),
+            base = select.current.getBoundingClientRect(),
+            top =  bodyRect.top - base.top,
+            left =  bodyRect.left - base.left,
+            circle = document.createElement('div'),
+            top2 = ( Number(lightModeBTN[1]) + window.scrollY ) + top,
+            left2 = (Number(lightModeBTN[2]) + window.scrollX ) + left
 
         circle.style.marginTop = `${top2}px`;
         circle.style.marginLeft = `${left2}px`;
