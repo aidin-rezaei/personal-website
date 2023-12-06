@@ -1,0 +1,60 @@
+.btn {
+    position: relative;
+    display: flex;
+    /* width: 100px; */
+    /* height: 100px; */
+    text-transform: uppercase;
+    /* background: #D6DBDC; */
+    /* color: #000; */
+    /* border-style: inset; */
+    justify-content: center;
+    align-items: center;
+    /* margin: 20px; */
+    border: unset;
+    padding: 1px;
+}
+
+.btn .content {
+    /* width: calc(100% - 2.5px); */
+    /* height: calc(100% - 3px); */
+    width: 100%;
+    height: 100%;
+    /* margin-top: 1px; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box; */
+    /* background: #D6DBDC; */
+    /* backdrop-filter: blur(50px); */
+    z-index: 1;
+    transition: background .5s ease,color .5s ease;
+}
+.btn .content:hover{
+    /* background: #D6DBDC; */
+    /* color: #fff; */
+    /* outline: 1px solid #fff; */
+    transition: background .5s ease,color .5s ease,outline .5s ease;
+}
+.btn .border {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aliceblue; */
+    overflow: hidden;
+    border: unset;
+}
+
+.btn .border .effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 60px 60px rgb(255, 255, 255);
+    border-radius: 50px;
+    /* transition: margin s ease; */
+}
+[data-mode="dark"] .btn .border .effect {
+    box-shadow: 0 0 60px 60px rgba(255, 255, 255, 0.5);
+}
