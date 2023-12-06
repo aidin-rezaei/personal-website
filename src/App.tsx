@@ -1,5 +1,5 @@
-import React from 'react';
-import logo from './logo.svg';
+// import React from 'react';
+// import logo from './logo.svg';
 import './App.css';
 import Effect from './components/Effect';
 import SideMenu from './components/SideMenu';
@@ -7,6 +7,7 @@ import TopMenu from './components/TopMenu';
 import Header from './components/Header';
 import About from './components/About';
 import Skills from './components/Skills';
+import Portfolio from './components/portfolio';
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
           <div className='pt-[40vh]'></div>
           <Skills />
           <div className='pt-[40vh]'></div>
-
+          <Portfolio />
           <div>
           </div>
         </div>
