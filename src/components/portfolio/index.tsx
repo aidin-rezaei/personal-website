@@ -37,22 +37,20 @@ const Portfolio = () => {
                     data-aos-offset="0">
                     <div className="relative">
                         <div className="absolute top-[60%] left-[60%] before:shadow-[0_0_40px_40px_rgba(255,154,154,0.62)]"></div>
-                        <Tilt options={defaultOptions}>
-                            <a href="http://">
+                        <Tilt options={defaultOptions} className="relative a3dcard h-[250px] w-[100%]">
 
-                                <Button btnclass='h-[250px] w-[100%]' borderclass='rounded-lg' className='rounded-xl bg-[rgba(235,235,235,0.67)] dark:bg-[rgba(98,98,98,0.67)] hover:bg-opacity-80 dark:hover:bg-opacity-70  flex items-center justify-start flex-col gap-3 text-xs overflow-hidden'>
-                                    <div className="w-full h-[60%]">
+                                <Button btnclass='h-[100%] w-[100%]' borderclass='rounded-xl' className='rounded-xl bg-[rgba(235,235,235,0.67)] dark:bg-[rgba(98,98,98,0.67)] hover:bg-opacity-80 dark:hover:bg-opacity-70  flex items-center justify-start flex-col gap-3 text-xs '>
+                                    <div className="w-full h-[60%] rounded-t-xl overflow-hidden">
                                         <img className="w-full h-full object-cover" src="/1.png" alt="" />
                                     </div>
-                                    <div className="relative z-20">
+                                </Button>
+                                    <div className="w-full h-[40%] aff3d absolute top-[60%] left-0 px-2">
                                         <p className="text-sm px-[10px] ">
 
                                             javascript
                                         </p>
 
                                     </div>
-                                </Button>
-                            </a>
                         </Tilt>
 
                     </div>
