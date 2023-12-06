@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: 'BAUHS93';
+	src: url('fonts/BAUHS93.eot');
+	src: local('BAUHS93'), url('fonts/BAUHS93.woff') format('woff'), url('fonts/BAUHS93.ttf') format('truetype');
+}
+
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_2802">Text with this font applied</p> */
+.fontsforweb_fontid_2802 {
+	font-family: 'BAUHS93' !important;
+}
+
+body, html {
+	/* height: 100%; */
+	/* cursor: url('/pointer.cur') -10 10, default !important; */
+}
