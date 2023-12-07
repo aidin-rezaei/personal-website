@@ -15,6 +15,7 @@ const Contact = () => {
     //     reset: true,    // If the tilt effect has to be reset on exit.
     //     easing: "cubic-bezier(.03,.98,.52,.99)",    // Easing on enter/exit.
     // }
+    console.profile()
     return (
         <div className=" w-full flex justify-center items-center flex-col">
             <div className="w-full relative flex justify-center items-center">
