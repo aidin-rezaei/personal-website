@@ -36,75 +36,113 @@ const Portfolio = () => {
                     data-aos-delay="100"
                     data-aos-offset="0">
                     <div className="relative">
-                        <div className="absolute top-[60%] left-[60%] before:shadow-[0_0_40px_40px_rgba(255,154,154,0.62)]"></div>
-                        <Tilt options={defaultOptions} className="relative a3dcard h-[250px] w-[100%]">
+                        <div className="absolute top-[90%] left-[20%] before:shadow-[0_0_60px_50px_rgba(0,209,255,0.4)]"></div>
+                        <Tilt options={defaultOptions} className="relative a3dcard h-[250px] w-[100%] group">
 
-                                <Button btnclass='h-[100%] w-[100%]' borderclass='rounded-xl' className='rounded-xl bg-[rgba(235,235,235,0.67)] dark:bg-[rgba(98,98,98,0.67)] hover:bg-opacity-80 dark:hover:bg-opacity-70  flex items-center justify-start flex-col gap-3 text-xs '>
-                                    <div className="w-full h-[60%] rounded-t-xl overflow-hidden">
-                                        <img className="w-full h-full object-cover" src="/1.png" alt="" />
-                                    </div>
-                                </Button>
-                                    <div className="w-full h-[40%] aff3d absolute top-[60%] left-0 px-2">
-                                        <p className="text-sm px-[10px] ">
+                            <Button btnclass='h-[100%] w-[100%]' borderclass='rounded-2xl' className='rounded-2xl bg-[rgba(235,235,235,0.67)] dark:bg-[rgba(98,98,98,0.67)] hover:bg-opacity-80 dark:hover:bg-opacity-70  flex items-center justify-start flex-col gap-3 text-xs '>
+                                <div className="w-full h-[60%] rounded-t-2xl overflow-hidden">
+                                    <img className="w-full h-full object-cover" src="/1.png" alt="" />
+                                </div>
+                            </Button>
+                            <div className="w-full h-[40%] aff3d absolute top-[60%] left-0 px-2 ">
+                                <p className="text-lg px-[10px] flex  justify-start items-center">
 
-                                            javascript
-                                        </p>
+                                    resume website
+                                    <span className="p-2 group-hover:px-6 transition-all">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 19 19" fill="none">
+                                            <path d="M1 9.15181H17.9831M17.9831 9.15181L9.83123 17.3037M17.9831 9.15181L9.83123 0.999903" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
 
-                                    </div>
+                                    </span>
+                                </p>
+                                <p className="text-sm p-2 text-[#919191]">
+                                    create web site  personal with javascript, html, css
+                                    and back-end php
+                                </p>
+                            </div>
+                        </Tilt>
+
+                    </div>                    <div className="relative">
+                        <div className="absolute top-[90%] left-[10%] before:shadow-[0_0_60px_50px_rgba(255,0,92,0.26)]"></div>
+                        <Tilt options={defaultOptions} className="relative a3dcard h-[250px] w-[100%] group">
+
+                            <Button btnclass='h-[100%] w-[100%]' borderclass='rounded-2xl' className='rounded-2xl bg-[rgba(235,235,235,0.67)] dark:bg-[rgba(98,98,98,0.67)] hover:bg-opacity-80 dark:hover:bg-opacity-70  flex items-center justify-start flex-col gap-3 text-xs '>
+                                <div className="w-full h-[60%] rounded-t-2xl overflow-hidden">
+                                    <img className="w-full h-full object-cover" src="/2.png" alt="" />
+                                </div>
+                            </Button>
+                            <div className="w-full h-[40%] aff3d absolute top-[60%] left-0 px-2 ">
+                                <p className="text-lg px-[10px] flex  justify-start items-center">
+
+                                glassmorphism sidebar
+                                    <span className="p-2 group-hover:px-6 transition-all">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 19 19" fill="none">
+                                            <path d="M1 9.15181H17.9831M17.9831 9.15181L9.83123 17.3037M17.9831 9.15181L9.83123 0.999903" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+
+                                    </span>
+                                </p>
+                                <p className="text-sm p-2 text-[#919191]">
+                                    create web site  personal with javascript, html, css
+                                    and back-end php
+                                </p>
+                            </div>
                         </Tilt>
 
                     </div>
                     <div className="relative">
-                        <div className="absolute top-[60%] left-[60%] before:shadow-[0_0_40px_40px_rgba(255,154,154,0.62)]"></div>
-                        <Tilt options={defaultOptions}>
-                            <a href="http://">
+                    <div className="absolute top-[90%] left-[40%] before:shadow-[0_0_60px_50px_rgba(158,0,255,0.26)]"></div>
+                        <Tilt options={defaultOptions} className="relative a3dcard h-[250px] w-[100%] group">
 
-                                <Button btnclass='h-[250px] w-[100%]' borderclass='rounded-lg' className='rounded-lg bg-[rgba(235,235,235,0.67)] dark:bg-[rgba(98,98,98,0.67)] hover:bg-opacity-80 dark:hover:bg-opacity-70  flex items-center justify-start flex-col gap-3 text-xs overflow-hidden'>
-                                    <div className="w-full h-[50%]">
-                                        <img src="/1.png" alt="" />
-                                    </div>
-                                    <p className="text-sm px-[10px] ">
+                            <Button btnclass='h-[100%] w-[100%]' borderclass='rounded-2xl' className='rounded-2xl bg-[rgba(235,235,235,0.67)] dark:bg-[rgba(98,98,98,0.67)] hover:bg-opacity-80 dark:hover:bg-opacity-70  flex items-center justify-start flex-col gap-3 text-xs '>
+                                <div className="w-full h-[60%] rounded-t-2xl overflow-hidden">
+                                    <img className="w-full h-full object-cover" src="/3.png" alt="" />
+                                </div>
+                            </Button>
+                            <div className="w-full h-[40%] aff3d absolute top-[60%] left-0 px-2 ">
+                                <p className="text-lg px-[10px] flex  justify-start items-center">
 
-                                        javascript
-                                    </p>
-                                </Button>
-                            </a>
+                                    visa card
+                                    <span className="p-2 group-hover:px-6 transition-all">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 19 19" fill="none">
+                                            <path d="M1 9.15181H17.9831M17.9831 9.15181L9.83123 17.3037M17.9831 9.15181L9.83123 0.999903" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+
+                                    </span>
+                                </p>
+                                <p className="text-sm p-2 text-[#919191]">
+                                    create web site  personal with javascript, html, css
+                                    and back-end php
+                                </p>
+                            </div>
                         </Tilt>
 
                     </div>
                     <div className="relative">
-                        <div className="absolute top-[60%] left-[60%] before:shadow-[0_0_40px_40px_rgba(255,154,154,0.62)]"></div>
-                        <Tilt options={defaultOptions}>
-                            <a href="http://">
+                        <div className="absolute top-[60%] left-[80%] before:shadow-[0_0_60px_50px_rgba(173,255,0,0.26)]"></div>
+                        <Tilt options={defaultOptions} className="relative a3dcard h-[250px] w-[100%] group">
 
-                                <Button btnclass='h-[250px] w-[100%]' borderclass='rounded-lg' className='rounded-lg bg-[rgba(235,235,235,0.67)] dark:bg-[rgba(98,98,98,0.67)] hover:bg-opacity-80 dark:hover:bg-opacity-70  flex items-center justify-start flex-col gap-3 text-xs overflow-hidden'>
-                                    <div className="w-full h-[50%]">
-                                        <img src="/1.png" alt="" />
-                                    </div>
-                                    <p className="text-sm px-[10px] ">
+                            <Button btnclass='h-[100%] w-[100%]' borderclass='rounded-2xl' className='rounded-2xl bg-[rgba(235,235,235,0.67)] dark:bg-[rgba(98,98,98,0.67)] hover:bg-opacity-80 dark:hover:bg-opacity-70  flex items-center justify-start flex-col gap-3 text-xs '>
+                                <div className="w-full h-[60%] rounded-t-2xl overflow-hidden">
+                                    <img className="w-full h-full object-cover" src="/4.png" alt="" />
+                                </div>
+                            </Button>
+                            <div className="w-full h-[40%] aff3d absolute top-[60%] left-0 px-2 ">
+                                <p className="text-lg px-[10px] flex  justify-start items-center">
 
-                                        javascript
-                                    </p>
-                                </Button>
-                            </a>
-                        </Tilt>
+                                    personal website
+                                    <span className="p-2 group-hover:px-6 transition-all">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 19 19" fill="none">
+                                            <path d="M1 9.15181H17.9831M17.9831 9.15181L9.83123 17.3037M17.9831 9.15181L9.83123 0.999903" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
 
-                    </div>
-                    <div className="relative">
-                        <div className="absolute top-[60%] left-[60%] before:shadow-[0_0_40px_40px_rgba(255,154,154,0.62)]"></div>
-                        <Tilt options={defaultOptions}>
-                            <a href="http://">
-
-                                <Button btnclass='h-[250px] w-[100%]' borderclass='rounded-lg' className='rounded-lg bg-[rgba(235,235,235,0.67)] dark:bg-[rgba(98,98,98,0.67)] hover:bg-opacity-80 dark:hover:bg-opacity-70  flex items-center justify-start flex-col gap-3 text-xs overflow-hidden'>
-                                    <div className="w-full h-[50%]">
-                                        <img src="/1.png" alt="" />
-                                    </div>
-                                    <p className="text-sm px-[10px] ">
-
-                                        javascript
-                                    </p>
-                                </Button>
-                            </a>
+                                    </span>
+                                </p>
+                                <p className="text-sm p-2 text-[#919191]">
+                                    create web site  personal with javascript, html, css
+                                    and back-end php
+                                </p>
+                            </div>
                         </Tilt>
 
                     </div>
@@ -117,7 +155,7 @@ const Portfolio = () => {
                     I am interested in new challenges in the field of programming and using my technical knowledge, I try to implement a new project with high quality. */}
                 </div>
             </div>
-            <div className="max-w-[650px] mx-auto my-7 flex justify-center items-center">
+            {/* <div className="max-w-[650px] mx-auto my-7 flex justify-center items-center">
                 <div className=" grid grid-cols-5 grid-rows-2 gap-2">
                     <div className="relative">
                         <div className="absolute top-[60%] left-[60%] before:shadow-[0_0_40px_40px_rgba(255,154,154,0.62)]"></div>
@@ -295,7 +333,7 @@ const Portfolio = () => {
 
 
                 </div>
-            </div>
+            </div> */}
         </div>
 
     );

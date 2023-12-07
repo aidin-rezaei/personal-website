@@ -26,6 +26,7 @@ function App() {
           <Skills />
           <div className='pt-[40vh]'></div>
           <Portfolio />
+          <div className='pt-[40vh]'></div>
           <div>
           </div>
         </div>
