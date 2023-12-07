@@ -19,7 +19,7 @@ const Contact = () => {
     // }
     return (
         <div>
-            <Button btnclass='h-[100%] w-[100%]w-full h-[200px]' borderclass='rounded-2xl' className=' bg-[rgba(255,255,255,0.64)] dark:bg-[rgba(0,0,0,0.64)] flex justify-center items-center'>
+            <Button btnclass='h-[100%] w-[100%]w-full py-' borderclass='rounded-2xl' className=' bg-[rgba(255,255,255,0.64)] dark:bg-[rgba(0,0,0,0.64)] flex justify-center items-center'>
                 <div className="max-w-[700px] w-full grid grid-cols-2">
                     <div className="w-full flex justify-start items-center">
                         <div>
