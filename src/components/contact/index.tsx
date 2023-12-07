@@ -16,7 +16,13 @@ const Contact = () => {
         easing: "cubic-bezier(.03,.98,.52,.99)",    // Easing on enter/exit.
     }
     return (
-        <div>
+        <div className="relative flex justify-center items-center">
+            <div className="absolute max-w-[700px] w-full h-full">
+                <div className="absolute top-[40%] left-[10%] before:shadow-[0_0_70px_50px_rgba(158,0,255,0.9)]"></div>
+                <div className="absolute top-[70%] left-[20%] before:shadow-[0_0_100px_80px_rgba(0,209,255,0.64)]"></div>
+                <div className="absolute top-[70%] left-[70%] before:shadow-[0_0_70px_50px_rgba(173,255,0,0.26)]"></div>
+                <div className="absolute top-[20%] left-[90%] before:shadow-[0_0_100px_80px_rgba(255,0,92,0.26)]"></div>
+            </div>
             <Button btnclass='h-[100%] w-[100%] w-full' className=' bg-[rgba(255,255,255,0.64)] dark:bg-[rgba(0,0,0,0.64)] flex justify-center items-center py-2 font-sans uppercase'>
                 <div className="max-w-[700px] w-full grid grid-cols-2">
                     <div className="w-full flex justify-start items-center">
@@ -39,7 +45,7 @@ const Contact = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="w-full  flex justify-start items-center gap-2">
+                    <div className="w-full  flex justify-end items-center gap-2">
                         <div className="hover:scale-105">
                             <div className='w-[50px] h-[50px] rounded-lg bg-[rgba(235,235,235,0.80)] dark:bg-[rgba(98,98,98,0.80)] hover:bg-opacity-80 dark:hover:bg-opacity-70 px-[10px] flex items-center justify-start flex-col gap-3 p-2 text-xs'>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="47" height="46" viewBox="0 0 47 46" fill="none">
