@@ -29,6 +29,8 @@ function App() {
           <Portfolio />
           <div className='pt-[40vh]'></div>
           <Contact/>
+          <div className='pt-[40vh]'></div>
+
           <div>
           </div>
         </div>
