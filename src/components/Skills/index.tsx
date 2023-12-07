@@ -14,7 +14,7 @@ const Skills = () => {
         easing: "cubic-bezier(.03,.98,.52,.99)",    // Easing on enter/exit.
     }
     return (
-        <div>
+        <div id="skills">
             <div className="w-[100%] flex justify-center items-center transition-all duration-1000">
                 <div className="w-[60px] h-[20px] pr-1 flex flex-col justify-between items-end" data-aos="fade-right"
                     data-aos-offset="300"

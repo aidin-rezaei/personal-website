@@ -4,7 +4,7 @@ import Photome from "./components/photome";
 
 const Header = () => {
     return (
-        <div className="w-[100%] h-[calc(100vh_-_60px)] select-none flex justify-center items-center dark:text-white">
+        <div className="w-[100%] h-[calc(100vh_-_60px)] select-none flex justify-center items-center dark:text-white" id="home">
             <div className="logo w-[50%] h-[100%] flex justify-center items-center">
                 <Logo>
                     Aidin <br /> Rezaei

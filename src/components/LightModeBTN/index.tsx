@@ -7,6 +7,7 @@ const LightModeBTN = () => {
     const dispatch = useDispatch()
     const lightModeBTN = useSelector((state:any) => state.counter.value)
     const click = (e:any) => {
+        e.stopPropagation()
         const target = e.target.getBoundingClientRect()
         dispatch(Darkmode([!lightModeBTN[0], target.top, target.left]))
     };
