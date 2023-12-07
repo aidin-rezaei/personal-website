@@ -84,6 +84,9 @@ const Contact = () => {
 
                 </div>
             </Button>
+            <div className="pt-10 max-w-[700px] w-full">
+                
+            </div>
             {/* <div className="w-full h-[200px] bg-[rgba(255,255,255,0.64)] dark:bg-[rgba(0,0,0,0.64)] flex justify-center items-center">
 
             </div> */}
