@@ -8,6 +8,7 @@ import Header from './components/Header';
 import About from './components/About';
 import Skills from './components/Skills';
 import Portfolio from './components/portfolio';
+import Contact from './components/contact';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <div className='pt-[40vh]'></div>
           <Portfolio />
           <div className='pt-[40vh]'></div>
+          <Contact/>
           <div>
           </div>
         </div>
