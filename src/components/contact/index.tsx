@@ -90,7 +90,7 @@ const Contact = () => {
 
 </div> */}
             </div>
-            <div className="max-w-[700px] w-full flex flex-col justify-center items-center gap-5">
+            <div className="p-4 max-w-[700px] w-full flex flex-col justify-center items-center gap-5">
                 <div className="relative z-10 pt-16 max-w-[700px] w-full grid grid-cols-2 grid-rows-6 gap-5">
                     <div className=' w-full'>
                         <input className="text-sm p-2 w-full rounded-lg" type="text" name="" id="" placeholder="Full Name" />

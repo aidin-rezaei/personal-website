@@ -11,7 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
-
+body{
+  overflow-x: hidden;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

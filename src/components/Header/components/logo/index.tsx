@@ -97,7 +97,7 @@ const Logo = ({ children }: any) => {
 
     }, [])
     return (
-        <div className={`logo fixed pointer-events-none transition-all duration-500 fontsforweb_fontid_2802 top-0 left-0 ${classl ? " ml-[10px] text-lg  z-10" : "z-0 ml-[10%] mt-[calc(100%_/_5)] text-7xl md:text-9xl after:content-[''] before:content-[''] before:absolute before:top-[220px] before:left-[100px] dark:before:shadow-[0_0_200px_120px_rgba(0,255,209,0.34)] before:-z-10  after:absolute after:-z-10 dark:after:shadow-[0_0_200px_120px_rgba(0,178,255,0.54)] after:shadow-[0_0_200px_120px_rgba(0,178,255,0.20)] before:shadow-[0_0_200px_120px_rgba(0,255,209,0.20)] after:left-[100%] after:top-[50%] after:rounded-full before:rounded-full"}`}>
+        <div className={`logo fixed pointer-events-none transition-all duration-500 fontsforweb_fontid_2802 top-0 left-0 ${classl ? " ml-[10px] text-lg  z-[100]" : "z-0 ml-[10%] mt-[calc(100%_/_5)] text-7xl md:text-9xl after:content-[''] before:content-[''] before:absolute before:top-[220px] before:left-[100px] dark:before:shadow-[0_0_200px_120px_rgba(0,255,209,0.34)] before:-z-10  after:absolute after:-z-10 dark:after:shadow-[0_0_200px_120px_rgba(0,178,255,0.54)] after:shadow-[0_0_200px_120px_rgba(0,178,255,0.20)] before:shadow-[0_0_200px_120px_rgba(0,255,209,0.20)] after:left-[100%] after:top-[50%] after:rounded-full before:rounded-full"}`}>
             {children}
             <div className={`font-sans text-4xl md:text-6xl md:-mt-10 -mt-5 flex justify-center items-center ${classl ? " hidden" : " opacity-100"}`}>
                 <div className="md:w-[60px] w-[30px] mt-5 md:mt-[38px] md:h-[40px] h-[25px] flex flex-col justify-between items-center">

@@ -17,7 +17,7 @@ const TopMenu = () => {
 
     }, [])
     return (
-        <div className={`topmenu fixed h-[60px] w-[100%] transition-all z-10 duration-500 bg-[rgb(200,205,206)] -top-[60px] ${classl ? "mt-[60px]" : ""}`}>
+        <div className={`topmenu fixed h-[60px] w-[100%] transition-all z-50 duration-500 bg-[rgb(200,205,206)] -top-[60px] ${classl ? "mt-[60px]" : ""}`}>
             <div className="absolute w-full h-[60px] flex items-center justify-end p-2 md:hidden">
                 <div>
                     <LightModeBTN/>
