@@ -31,7 +31,7 @@ const Portfolio = () => {
                 >My portfolio</h2>
             </div>
             <div className="max-w-[700px] mx-auto text-justify mt-10 transition-all duration-1000" >
-                <div className="grid grid-cols-2 grid-rows-2 gap-5" data-aos="fade-zoom-in"
+                <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 gap-5" data-aos="fade-zoom-in"
                     data-aos-easing="ease-in-back"
                     data-aos-delay="100"
                     data-aos-offset="0">
