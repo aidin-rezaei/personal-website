@@ -44,7 +44,7 @@ const Skills = () => {
                 </p>
             </div>
             <div className="max-w-[650px] mx-auto my-7 flex justify-center items-center">
-                <div className=" grid grid-cols-5 grid-rows-2 gap-2">
+                <div className=" grid grid-cols-3 md:grid-cols-5 md:grid-rows-2 gap-2">
                     <div className="relative">
                         <div className="absolute top-[60%] left-[60%] before:shadow-[0_0_40px_40px_rgba(255,154,154,0.62)]"></div>
                         <Tilt options={defaultOptions}>
