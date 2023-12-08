@@ -37,7 +37,7 @@ const scrollTo: any = (el: any) => {
 };
 const SideMenu = () => {
     return (
-        <div className="sidemenu dark:text-white fixed h-[calc(100%)] w-[60px] hover:w-[220px]  flex items-end  overflow-hidden z-10">
+        <div className="sidemenu hidden md:flex dark:text-white fixed h-[calc(100%)] w-[60px] hover:w-[220px]   items-end  overflow-hidden z-10">
             <Effect />
             <div className="menu pb-[50px] flex justify-start items-center flex-col">
                 <Button click={() => scrollTo("home")} btnclass='pitemm h-[60px]' className='itemmenu px-[10px] py-1  cursor-pointer flex items-center justify-start  text-xs'>

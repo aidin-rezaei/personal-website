@@ -19,7 +19,7 @@ function App() {
       <div className='h-[100%] font-sans'>
         <SideMenu />
         <TopMenu />
-        <div className='pt-[60px] pl-[60px] h-[100%] dark:text-white'>
+        <div className='pt-[60px] md:pl-[60px] h-[100%] dark:text-white'>
           <Header />
           <div className='pt-[70vh]'></div>
           <About />
