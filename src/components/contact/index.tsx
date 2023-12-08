@@ -90,19 +90,19 @@ const Contact = () => {
 
 </div> */}
             </div>
-            <div className="p-4 max-w-[700px] w-full flex flex-col justify-center items-center gap-5">
+            <form action="contact.php" method="post" className="p-4 max-w-[700px] w-full flex flex-col justify-center items-center gap-5">
                 <div className="relative z-10 pt-16 max-w-[700px] w-full grid grid-cols-2 grid-rows-6 gap-5">
                     <div className=' w-full'>
-                        <input className="text-sm p-2 w-full rounded-lg" type="text" name="" id="" placeholder="Full Name" />
+                        <input className="text-sm p-2 w-full rounded-lg" type="text" name="name" id="" placeholder="Full Name" />
                     </div>
                     <div className=' w-ful'>
-                        <input className="text-sm p-2 w-full rounded-lg" type="text" name="" id="" placeholder="Enter E-mail" />
+                        <input className="text-sm p-2 w-full rounded-lg" type="text" name="email" id="" placeholder="Enter E-mail" />
                     </div>
                     <div className='col-span-2 w-ful'>
-                        <input className="text-sm p-2 w-full rounded-lg" type="text" name="" id="" placeholder="subject" />
+                        <input className="text-sm p-2 w-full rounded-lg" type="text" name="subject" id="" placeholder="subject" />
                     </div>
                     <div className='col-span-2 row-span-4 w-full'>
-                        <textarea className="text-sm p-2 w-full h-full resize-none rounded-lg" name="" id="" placeholder="message"></textarea>
+                        <textarea className="text-sm p-2 w-full h-full resize-none rounded-lg" name="message" id="" placeholder="message"></textarea>
                     </div>
                 </div>
                 <Button btnclass='h-[36px] w-[250px]' borderclass='rounded-lg' className='rounded-lg bg-[#D6DBDC] dark:bg-[#000000] hover:bg-opacity-80 dark:hover:bg-opacity-70 px-[5px] p-2 flex items-center justify-center gap-3 text-xs'>
@@ -111,7 +111,7 @@ const Contact = () => {
                         submit
                     </p>
                 </Button>
-            </div>
+            </form>
 
         </div>
 
